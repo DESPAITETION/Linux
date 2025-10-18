@@ -10,10 +10,11 @@ int main()
 	{
 		cout << "$ ";
 		getline(cin, input);
-		if (!getline(cin, input))
+		if (input == "\\q")
 		{
-			break;
+			cout << "End" << endl;
 		}
+
 	}
 	
 }
