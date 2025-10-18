@@ -1,0 +1,41 @@
+# Файлы сборки Visual Studio
+/[Bb]in/
+/[Oo]bj/
+/x64/
+/x86/
+/*.exe
+/*.dll
+/*.lib
+/*.ilk
+/*.pdb
+/*.obj
+
+# Файлы отладки и профилирования
+/*.pdb
+/*.pgc
+/*.pgd
+/*.idb
+
+# Файлы автоматической резервной копии
+/*.tlb
+/*.tlh
+/*.tmp
+/*.log
+/*.tmp_proj
+
+# Файлы Visual Studio
+/.vs/
+/*.vcxproj.user
+/*.sln.iml
+*.VC.db
+
+# Файлы TFS
+/*.vssscc
+/*.scc
+
+# Файлы рецептов сборки
+/*.recipe
+/*.lastbuildstate
+
+# Папки с логами и временными файлами
+/*.tlog/
