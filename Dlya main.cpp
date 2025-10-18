@@ -13,6 +13,7 @@ int main()
 		if (input == "\\q")
 		{
 			cout << "End" << endl;
+			break;
 		}
 
 	}
