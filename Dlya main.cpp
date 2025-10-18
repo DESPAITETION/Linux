@@ -6,6 +6,14 @@ int main()
 	cout << unitbuf;
 	cerr << unitbuf;
 	string input;
-	cout << "$ ";
-	getline(cin, input);
+	while (true)
+	{
+		cout << "$ ";
+		getline(cin, input);
+		if (!getline(cin, input))
+		{
+			break;
+		}
+	}
+	
 }
