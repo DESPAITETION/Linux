@@ -16,6 +16,10 @@ int main()
 			string soob = input.substr(4);
 			cout << soob << endl;
 		}
+		else
+		{
+			cout << "Command not found!"<<endl;
+		}
 	}
 	
 }
