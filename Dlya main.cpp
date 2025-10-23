@@ -2,15 +2,6 @@
 #include<string>
 #include<fstream>
 using namespace std;
-void File(string a)
-{
-	ofstream file("C:\\Users\\Пользователь\\OneDrive\\Desktop\\kubsh_history.txt", ios::app);
-	if (file.is_open())
-	{
-		file << a<<endl;
-		file.close();
-	}
-}
 int main()
 {
 	cout << unitbuf;
@@ -20,13 +11,10 @@ int main()
 	{
 		cout << "$ ";
 		getline(cin, input);
-		string result = "$ " + input;
-		File(result);
-		if (input=="\\q")
+		if (input.find("echo") == 0)
 		{
-			cout << "End" << endl;
-			File("End");
-			break;
+			string soob = input.substr(4);
+			cout << soob << endl;
 		}
 	}
 	
