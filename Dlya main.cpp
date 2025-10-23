@@ -26,6 +26,7 @@ int main()
 		{
 			cout << "End" << endl;
 			File("End");
+			File("End");
 			break;
 		}
 	}
